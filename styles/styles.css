@@ -101,9 +101,24 @@ gap: 40px;
 }
 /* features start */
 #feature-section-title{
-  border-left: 5px solid #ff900e;
+  border-left: 3px solid #ff900e;
   padding: 20px;
-
+  margin-bottom: 20px;
+border-radius: 8px;
+}
+.feature-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+}
+.feature-card .feature-title{
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+}
+features-start{
+  gap: 130px;
 }
 
 /* some facts related card */
